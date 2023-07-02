@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+// Ex 7.1: Java concurrency in practice
 public class CancellationWithVolatile {
     public static void main(String[] args) {
         PrimeGenerator primeGenerator = new PrimeGenerator();
