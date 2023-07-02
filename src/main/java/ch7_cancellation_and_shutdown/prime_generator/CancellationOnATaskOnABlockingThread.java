@@ -12,7 +12,7 @@ public class CancellationOnATaskOnABlockingThread {
         BrokenPrimeGenerator brokenPrimeGenerator = new BrokenPrimeGenerator(primes);
 
         Thread thread = new Thread(brokenPrimeGenerator);
-
+        thread.start();
         long start = System.currentTimeMillis();
 
         try {
