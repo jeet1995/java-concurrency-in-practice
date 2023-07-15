@@ -17,6 +17,7 @@ public class HandlingInterruptionForNonCancellableTask {
                     return tasks.take();
                 } catch (InterruptedException e) {
                     interrupted = true;
+                    // will simply retry
                 }
             }
         } finally {
