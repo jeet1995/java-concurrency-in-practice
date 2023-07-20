@@ -49,5 +49,4 @@ public class InterruptingTaskOnDedicatedThread {
         // on a dedicated thread so the caller can handle the exception
         rethrowableTask.rethrow();
     }
-
 }
