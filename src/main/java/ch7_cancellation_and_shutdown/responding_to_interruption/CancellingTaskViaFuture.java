@@ -1,6 +1,11 @@
 package ch7_cancellation_and_shutdown.responding_to_interruption;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 // Ex 7.10
 public class CancellingTaskViaFuture {
